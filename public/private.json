@@ -1,0 +1,150 @@
+[
+    {
+        "id": 1,
+        "name": "EcoBottle Glass",
+        "image": "https://res.cloudinary.com/dvp64j4a3/image/upload/v1724951756/images_z6oqeu.jpg",
+        "price": "$25",
+        "description": "A stylish and eco-friendly glass bottle perfect for everyday use."
+    },
+    {
+        "id": 2,
+        "name": "Stainless Steel Flask",
+        "image": "https://res.cloudinary.com/dvp64j4a3/image/upload/v1724951712/images_5_bq94sb.jpg",
+        "price": "$50",
+        "description": "Durable stainless steel flask with double-wall insulation to keep drinks hot or cold."
+    },
+    {
+        "id": 3,
+        "name": "Reusable Water Bottle",
+        "image": "https://res.cloudinary.com/dvp64j4a3/image/upload/v1724951738/images_7_nyeriq.jpg",
+        "price": "$30",
+        "description": "A lightweight, BPA-free water bottle ideal for staying hydrated on the go."
+    },
+    {
+        "id": 4,
+        "name": "Ceramic Tea Bottle",
+        "image": "https://res.cloudinary.com/dvp64j4a3/image/upload/v1724951700/images_4_zujzra.jpg",
+        "price": "$18",
+        "description": "Elegant ceramic bottle designed for keeping your tea hot and fresh."
+    },
+    {
+        "id": 5,
+        "name": "Glass Juice Bottle",
+        "image": "https://res.cloudinary.com/dvp64j4a3/image/upload/v1724951691/images_3_qclrvo.jpg",
+        "price": "$14.99",
+        "description": "Clear glass bottle perfect for fresh juices and smoothies with a secure lid."
+    },
+    {
+        "id": 6,
+        "name": "Collapsible Water Bottle",
+        "image": "https://res.cloudinary.com/dvp64j4a3/image/upload/v1724951652/images_1_s6mifp.jpg",
+        "price": "$35",
+        "description": "A space-saving, collapsible water bottle ideal for travel and outdoor adventures."
+    },
+    {
+        "id": 7,
+        "name": "Sports Hydration Bottle",
+        "image": "https://res.cloudinary.com/dvp64j4a3/image/upload/v1724951640/download_lirytj.jpg",
+        "price": "$55",
+        "description": "Designed for athletes, this hydration bottle features a convenient spout and grip."
+    },
+    {
+        "id": 8,
+        "name": "Vintage Soda Bottle",
+        "image": "https://res.cloudinary.com/dvp64j4a3/image/upload/v1724951619/download_3_uu0uyx.jpg",
+        "price": "$60",
+        "description": "Retro-style soda bottle perfect for collectors or as a unique gift."
+    },
+    {
+        "id": 9,
+        "name": "Insulated Water Bottle",
+        "image": "https://res.cloudinary.com/dvp64j4a3/image/upload/v1724951599/download_2_lwurca.jpg",
+        "price": "$20",
+        "description": "High-performance insulated bottle that keeps your drinks at the perfect temperature for hours."
+    },
+    {
+        "id": 10,
+        "name": "Tumbler Bottle",
+        "image": "https://res.cloudinary.com/dvp64j4a3/image/upload/v1724951568/bottols6_qrnzdw.jpg",
+        "price": "$45",
+        "description": "A versatile tumbler bottle with a spill-proof lid, ideal for both hot and cold beverages."
+    },
+    {
+        "id": 11,
+        "name": "Glass Spray Bottle",
+        "image": "https://res.cloudinary.com/dvp64j4a3/image/upload/v1724954923/images_10_vdg61k.jpg",
+        "price": "$13.99",
+        "description": "Elegant glass spray bottle for essential oils or homemade cleaning solutions."
+    },
+    {
+        "id": 12,
+        "name": "Plastic Sports Bottle",
+        "image": "https://res.cloudinary.com/dvp64j4a3/image/upload/v1724951587/download_1_aiks3b.jpg",
+        "price": "$15",
+        "description": "Durable plastic sports bottle with a large capacity and easy-to-use flip-top lid."
+    },
+    
+    {
+        "id": 13,
+        "name": "Glass Infuser Bottle",
+        "image": "https://res.cloudinary.com/dvp64j4a3/image/upload/v1724951568/bottols6_qrnzdw.jpg",
+        "price": "$65",
+        "description": "Stylish glass bottle with an infuser for fruit and herb flavors in your water."
+    },
+    {
+        "id": 14,
+        "name": "Travel Flask Bottle",
+        "image": "https://res.cloudinary.com/dvp64j4a3/image/upload/v1724955417/images_11_ud59sr.jpg",
+        "price": "$43",
+        "description": "Compact travel flask bottle that fits easily into your bag, perfect for on-the-go beverages."
+    },
+    {
+        "id": 15,
+        "name": "Aluminum Water Bottle",
+        "image": "https://res.cloudinary.com/dvp64j4a3/image/upload/v1724954897/images_8_jqf99h.jpg",
+        "price": "$80",
+        "description": "Lightweight and durable aluminum water bottle with a secure screw-on cap."
+    },
+    {
+        "id": 16,
+        "name": "Double-Walled Bottle",
+        "image": "https://res.cloudinary.com/dvp64j4a3/image/upload/v1724951528/bottols3_wrgklz.jpg",
+        "price": "$64",
+        "description": "Double-walled bottle that maintains the temperature of your drinks while preventing condensation."
+    },
+    {
+        "id": 17,
+        "name": "Plastic Water Bottle",
+        "image": "https://res.cloudinary.com/dvp64j4a3/image/upload/v1724954914/images_9_mwlazv.jpg",
+        "price": "$50",
+        "description": "Sustainable water bottle made from recycled materials"
+    },
+    {
+        "id": 18,
+        "name": "Water Bottle",
+        "image": "https://res.cloudinary.com/dvp64j4a3/image/upload/v1724951640/download_lirytj.jpg",
+        "price": "$50",
+        "description": "Sustainable water bottle made from recycled materials"
+    },
+    {
+        "id": 19,
+        "name": "Bamboo Water Bottle",
+        "image": "https://res.cloudinary.com/dvp64j4a3/image/upload/v1724956837/images_12_ugq5r2.jpg",
+        "price": "$21",
+        "description": "Eco-friendly bamboo water bottle with a sleek design and natural finish."
+    },
+    {
+        "id": 20,
+        "name": "Thermal Coffee Bottle",
+        "image": "https://res.cloudinary.com/dvp64j4a3/image/upload/v1724957987/images_13_m6ercz.jpg",
+        "price": "$90",
+        "description": "High-quality thermal bottle designed to keep your coffee hot for extended periods."
+    },
+    {
+        "id": 21,
+        "name": "Eco-Friendly Water Bottle",
+        "image": "https://res.cloudinary.com/dvp64j4a3/image/upload/v1724957998/images_14_dzxv5c.jpg",
+        "price": "$15.49",
+        "description": "Sustainable water bottle made from recycled materials, perfect for eco-conscious consumers."
+    }
+]
