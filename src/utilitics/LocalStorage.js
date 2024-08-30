@@ -19,4 +19,12 @@ const AddToStorage = (id) => {
     savedCartStorage(storecart);
     console.log(id);
 }
-export {AddToStorage, geteStorCart}
+
+const RemoveStorCart = (id) =>{
+    const savedcart = geteStorCart();
+    const Removed = savedcart.filter(data => data !== id);
+    savedCartStorage(Removed);
+
+}
+
+export {AddToStorage, geteStorCart,RemoveStorCart}

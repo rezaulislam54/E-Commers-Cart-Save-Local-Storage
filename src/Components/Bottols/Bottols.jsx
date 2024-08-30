@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import Bottol from "../Bottol/Bottol";
 import Addtocart from "../AddTo Cart Bottol/Addtocart";
-import { AddToStorage, geteStorCart } from "../../utilitics/LocalStorage";
+import { AddToStorage, geteStorCart ,RemoveStorCart} from "../../utilitics/LocalStorage";
 
 const Bottols = () => {
 
@@ -43,6 +43,7 @@ const Bottols = () => {
         console.log(id)
       const newcart = addcart.filter(d => d.id != id);
       setaddcart(newcart)
+      RemoveStorCart(id);
     }
     
 
@@ -56,7 +57,7 @@ const Bottols = () => {
         <div>
 
             <h1 className="text-3xl font-extrabold text-center">My Cart List</h1>
-            <h2 className="text xl font-bold ml-6">Total Cart : {addcart.length}</h2>
+            <h2 className="text-xl font-bold ml-6">Total Cart : {addcart.length}</h2>
            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-3 my-4 mx-6">
                  {
                     addcart.map(item => <Addtocart 
@@ -68,7 +69,7 @@ const Bottols = () => {
            </div>
             <h1 className="text-center text-4xl font-bold my-4 ">All Bottols Heare</h1>
 
-           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mx-5 my-4">
+           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mx-5 my-4">
                  {
                     Bottols.map(bottol => <Bottol
                          key={ bottol.id}

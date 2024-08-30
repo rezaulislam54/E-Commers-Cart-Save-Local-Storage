@@ -1,8 +1,9 @@
 import { FaUserPlus,FaCartPlus,FaHeart  } from "react-icons/fa";
 const Header = () => {
     return (
-        <nav className="flex justify-between items-center h-16 my-5 px-4">
-            <img className="h-14" src="https://res.cloudinary.com/dvp64j4a3/image/upload/c_crop,w_180,h_70/v1724998491/logo_vgddsp.jpg" alt="" />
+        <header>
+                <nav className="flex justify-between items-center h-16 px-4 shadow-lg">
+            <img className="h-10" src="https://res.cloudinary.com/dvp64j4a3/image/upload/c_crop,w_180,h_70/v1724998491/logo_vgddsp.jpg" alt="" />
             <div className="flex list-none gap-x-7 font-bold text-xl ">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
@@ -24,7 +25,8 @@ const Header = () => {
                 
             </div>
         </nav>
-    );
+    </header>
+  );
 };
 
 export default Header;

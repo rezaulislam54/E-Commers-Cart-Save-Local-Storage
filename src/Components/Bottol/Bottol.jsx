@@ -5,7 +5,7 @@ const Bottol = ({bottol, handleAdd}) => {
     return (
         <div className="shadow-lg border-2 border-cyan-700 border-opacity-30 p-3 rounded-lg">
             <img className="mx-auto py-3" src={image} alt="" />
-            <h1 className="text-xl"> Product Id :{id}</h1>
+            <h1 className="text-xl"> Product :{id}</h1>
             <h2 className="text-xl font-medium my-1 ">Name : {name} </h2>
             <div className="flex justify-between items-center my-4">
                 <h2 className="text-xl font-bold">Price : {price} </h2>
