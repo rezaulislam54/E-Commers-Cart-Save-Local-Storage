@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import Bottol from "../Bottol/Bottol";
 import Addtocart from "../AddTo Cart Bottol/Addtocart";
+import { AddToStorage, geteStorCart } from "../../utilitics/LocalStorage";
 
 const Bottols = () => {
 
@@ -9,10 +10,27 @@ const Bottols = () => {
 
     const [addcart, setaddcart]=useState([]);
 
+    useEffect (() => {
+        if(Bottols.length > 0){
+             const savcart = geteStorCart();
+             const cart = [];
+             for(const id of savcart){
+                const bottol = Bottols.find(bottol => bottol.id === id);
+                if(bottol){
+                    cart.push(bottol);
+                }
+             }
+             setaddcart(cart);
+        }
+    
+    },[Bottols])
+
     function handleAdd (bottol){
         const newaddcart = addcart.find(p => p.id == bottol.id);
         if(!newaddcart){
+            AddToStorage(bottol.id);
             setaddcart([...addcart,bottol]);
+            
         }
         else{
             alert('allready exite')
@@ -23,8 +41,7 @@ const Bottols = () => {
 
     const handleDelete = (id) =>{
         console.log(id)
-      const newcart = addcart.filter(d => d.id !== id);
-      console.log(newcart)
+      const newcart = addcart.filter(d => d.id != id);
       setaddcart(newcart)
     }
     
